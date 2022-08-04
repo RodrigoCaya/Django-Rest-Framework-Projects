@@ -23,9 +23,6 @@ def get_secret(secret_name, secrets=secret):
 
 
 
-SECRET_KEY = get_secret('SECRET_KEY')
-
-
 # Application definition
 
 DJANGO_APPS = (
