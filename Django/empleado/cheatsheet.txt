@@ -1,0 +1,20 @@
+# to run server
+python manage.py runserver
+
+# to migrate database
+python manage.py makemigrations
+python manage.py migrate
+
+# create admin
+python manage.py createsuperuser
+
+# files
+admin.py : interactuar con la bd sin la necesidad de una interfaz
+urls.py : rutas de acceso
+
+# snippets
+mchar : models.CharField(max_length=50)
+mbool : models.BooleanField()
+register : admin.site.register()
+fk : models.ForeignKey(Departamento, on_delete=models.CASCADE)
+mimg : models.ImageField(, upload_to=None, height_field=None, width_field=None, max_length=None)
